@@ -1,6 +1,8 @@
 from paho import paho.mqtt.client as mqttclient
 import time
 
+##### app as subscriber ? pc as publisher
+
 def on_connect(client,usedata,flags,rc):
     if rc==0:
         print("Client is connected")
